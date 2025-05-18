@@ -1,0 +1,76 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding-top: 20px;
+}
+
+.left-section{
+  display: flex;
+  align-items: center;
+  width: 70px;
+  justify-content: center;
+}
+
+#pinterest-logo{
+  width: 24px;
+
+}
+
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#middle-section-container {
+  display: flex;
+  align-items: center; 
+  flex: 1;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+#middle-section-container:hover, #middle-section-container:focus-within{
+  background-color: rgba(212, 212, 212, 0.737);
+}
+
+
+#magnifying-glass{
+  height: 20px;
+}
+
+#search-bar{
+ flex: 1;
+ height: 48px;
+ color: rgb(33, 25, 34);
+ background-color: transparent;
+ outline-color: transparent;
+ font-size: 16px;
+ font-weight: 400;
+ border: none;
+}
+
+#right-section{
+  display: flex;
+  align-items: center;
+  width: 80px;
+  margin-left: 15px;
+}
+
+.profile-pic{
+  height: 35px;
+  border-radius: 20px;
+}
+
+.chevron{
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

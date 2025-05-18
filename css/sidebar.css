@@ -1,0 +1,37 @@
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  align-items: center;
+  border-right: 1px solid rgb(233, 233, 233);
+  z-index: 100;
+}
+
+.sidebar-btn-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+  width: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.sidebar-btns{
+  width: 24px;
+}
+
+.options-btn{
+  margin-top: auto;
+  margin-bottom: 20px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+}
