@@ -6,27 +6,17 @@
   position: fixed;
   right: 0;
   top: 0;
-  left: 0;
+  left: 70px;
   z-index: 100;
-  padding-top: 20px;
+  padding-top: 16px;
 }
 
-.left-section{
-  display: flex;
-  align-items: center;
-  width: 70px;
-  justify-content: center;
-}
-
-#pinterest-logo{
-  width: 24px;
-
-}
 
 .middle-section{
   display: flex;
   align-items: center;
   flex: 1;
+  margin-left: 35px;
 }
 
 #middle-section-container {
@@ -44,6 +34,7 @@
 
 #magnifying-glass{
   height: 20px;
+  padding-left: 15px;
 }
 
 #search-bar{
