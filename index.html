@@ -9,9 +9,6 @@
 </head>
 <body>
   <header class="header">
-    <div class="left-section">
-      <a href="https://www.pinterest.com/"><img src="icons/icons8-pinterest-logo-48.png" id="pinterest-logo" class="sidebar-btns"></a>
-    </div>
     <div class="middle-section">
       <div id="middle-section-container">
         <img src="icons/icons8-magnifying-glass.svg" id="magnifying-glass">
@@ -25,14 +22,34 @@
   </header>
   <nav class="sidebar">
     <div class="sidebar-btn-container">
-        <img src="icons/icons8-home-48.png" class="sidebar-btns">
+        <button class="logo-container">
+          <a href="https://www.pinterest.com/"><img src="icons/icons8-pinterest-logo-48.png" id="pinterest-logo" class="sidebar-btns"></a>
+          <div class="tooltip">Home</div>
+        </button>
+        <button class="home-btn">
+          <img src="icons/icons8-home-48.png" class="sidebar-btns">
+          <div class="tooltip">Home</div>
+        </button>      
+        
         <img src="icons/icons8-compass-48.png" class="sidebar-btns">
-        <img src="icons/icons8-plus-48.png" class="sidebar-btns">
-        <img src="icons/icons8-bell-48.png" class="sidebar-btns">
-        <img src="icons/icons8-message-50.png" class="sidebar-btns"> 
-    </div>
-    <div class="options-btn">
-        <img src="icons/icons8-desjardins.svg" class="sidebar-btns" id="options">
+        <button class="create-btn">
+          <img src="icons/icons8-plus-48.png" class="sidebar-btns">
+          <div class="tooltip">Create</div>
+        </button>
+        <button class="notif-btn">
+          <img src="icons/icons8-bell-48.png" class="sidebar-btns">
+          <div class="tooltip">Notifications</div>
+        </button>
+        <button class="messages-btn">
+          <img src="icons/icons8-message-50.png" class="sidebar-btns">
+          <div class="tooltip">Messages</div> 
+        </button>
+        <div class="options-btn">
+          <button class="more-opt-btn">
+            <img src="icons/icons8-desjardins.svg" class="sidebar-btns" id="options">
+            <div class="tooltip">More options</div> 
+          </button>  
+        </div>
     </div>
   </nav>
 </body>
