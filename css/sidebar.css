@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: white;
   position: fixed;
-  top: 70px;
+  top: 0;
   bottom: 0;
   left: 0;
   width: 70px;
@@ -21,11 +21,26 @@
   padding-bottom: 16px;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 
 .sidebar-btns{
   width: 24px;
+}
+
+.home-btn, .create-btn, .notif-btn, .messages-btn, .more-opt-btn, .logo-container{
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 48px;
+  width: 48px;
+}
+
+.home-btn:hover .tooltip, .create-btn:hover .tooltip, .notif-btn:hover .tooltip, .messages-btn:hover .tooltip, .more-opt-btn:hover .tooltip, .logo-container:hover .tooltip{
+  opacity: 1;
 }
 
 .options-btn{
@@ -34,4 +49,18 @@
   width: 48px;
   display: flex;
   justify-content: center;
+}
+
+.tooltip{
+  position: absolute;
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border-radius: 5px;
+  pointer-events: none;
+  white-space: nowrap;
+  left: 35px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 60;
 }
