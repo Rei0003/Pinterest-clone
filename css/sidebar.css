@@ -45,7 +45,6 @@
 
 .options-btn{
   margin-top: auto;
-  margin-bottom: 20px;
   width: 48px;
   display: flex;
   justify-content: center;
@@ -59,7 +58,7 @@
   border-radius: 5px;
   pointer-events: none;
   white-space: nowrap;
-  left: 35px;
+  left: 55px;
   opacity: 0;
   transition: opacity 0.15s;
   z-index: 60;
