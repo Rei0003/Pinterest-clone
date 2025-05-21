@@ -53,6 +53,7 @@
   align-items: center;
   width: 80px;
   margin-left: 15px;
+  margin-right: 20px;
 }
 
 .profile-pic{
@@ -64,4 +65,38 @@
   height: 15px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+
+.tooltip-header{
+  position: absolute;
+  color: white;
+  background-color: black;
+  padding: 6px;
+  border-radius: 5px;
+  pointer-events: none;
+  white-space: nowrap;
+  top: 60px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 60;
+}
+
+.accounts-btn .tooltip-header{
+  right: 5px;
+}
+
+.profile-btn, .accounts-btn{
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+}
+
+.profile-btn:hover .tooltip-header, .accounts-btn:hover .tooltip-header{
+  opacity: 1;
 }
