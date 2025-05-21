@@ -27,6 +27,7 @@
 
 .sidebar-btns{
   width: 24px;
+  cursor: pointer;
 }
 
 .home-btn, .create-btn, .notif-btn, .messages-btn, .more-opt-btn, .logo-container{
