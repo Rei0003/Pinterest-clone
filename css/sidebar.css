@@ -38,6 +38,7 @@
   position: relative;
   height: 48px;
   width: 48px;
+  background-color: white;
 }
 
 .home-btn:hover .tooltip, .create-btn:hover .tooltip, .notif-btn:hover .tooltip, .messages-btn:hover .tooltip, .more-opt-btn:hover .tooltip, .logo-container:hover .tooltip{
